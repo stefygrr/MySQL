@@ -19,6 +19,9 @@ primary key(id)
 -- visualizar a tabela
 select * from tb_produtos;
 
+-- Deleta o database 
+-- DROP DATABASE;
+
 -- popular tabela
 insert into tb_produtos(nome, quantidade, preco)
 values ("tomate", 50, 8.80);
